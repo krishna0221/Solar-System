@@ -77,3 +77,4 @@ cv2.FONT_HERSHEY_COMPLEX,
 
 cv2.imshow("solar_Sys",img)
 cv2.waitKey(0)
+cv2.imwrite("solar_Sys.jpg",img)
